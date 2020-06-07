@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import './constants.dart';
 import './pages/home.dart';
 
 class MyApp extends StatelessWidget {
@@ -8,7 +9,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Laptop4Code',
       theme: ThemeData(
-        primaryColor: Color(0xFF0F4C81),
+        primaryColor: colorClassicBlue,
+        colorScheme: colorSchemeLight,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       initialRoute: '/',
