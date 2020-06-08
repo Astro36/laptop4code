@@ -1,6 +1,6 @@
 # Laptop4Code
 
-> Korean Programming Laptop Benchmark
+> Korean Programming Laptop Recommend 2020
 
 ## Getting Started
 
