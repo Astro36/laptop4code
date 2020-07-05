@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
 import '../constants.dart';
 
@@ -96,7 +97,7 @@ class _SearchAppBar extends State<SearchAppBar> {
                 },
                 style: TextStyle(color: Colors.white),
               ),
-              width: MediaQuery.of(context).size.width / 2,
+              width: min(MediaQuery.of(context).size.width / 2, 500),
             ),
           IconButton(
             icon: const Icon(Icons.search),
